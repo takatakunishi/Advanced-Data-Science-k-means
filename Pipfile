@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+jupyter = "*"
+jupytext = "*"
+pandas = "*"
+pillow = "*"
+mglearn = "*"
+matplotlib = "*"
+ipython = "*"
+scipy = "*"
+jupyter-contrib-nbextensions = "*"
+jupyter-nbextensions-configurator = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
