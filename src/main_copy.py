@@ -4,7 +4,6 @@
 
 from tokenize import group
 import numpy as np
-import util
 import fileRead
 MAX_LOOP=500
 SEED_NUM = 43
@@ -72,6 +71,8 @@ def main():
       minGroup = group
   print("sum all distance", minDistance)
   print("group result", minGroup)
+
+
 
 class KMeans:
   def __init__(self, n_clusters, max_loop = MAX_LOOP, random_seed = SEED_NUM):
